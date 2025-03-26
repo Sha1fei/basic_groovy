@@ -17,6 +17,10 @@ class Pet {
      boolean asBoolean(){
         return true
     }
+
+    boolean isCase(Object switchValue){
+        return true
+    }
 }
 
 checkBoolean(true); // как в java передается boolean
